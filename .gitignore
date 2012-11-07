@@ -10,3 +10,8 @@
 *.lai
 *.la
 *.a
+
+# other files
+build/*
+.kdev4/*
+*.kdev4
