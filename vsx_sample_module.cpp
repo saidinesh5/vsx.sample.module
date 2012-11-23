@@ -28,7 +28,6 @@ void vsx_sample_module::module_info(vsx_module_info* info)
   info->in_param_spec ="param1:float,param2:float";;
   info->out_param_spec = "result:float";
   info->component_class = "parameters";
-  info->tunnel = true;
 }
 
 void vsx_sample_module::declare_params(vsx_module_param_list& in_parameters, vsx_module_param_list& out_parameters)
